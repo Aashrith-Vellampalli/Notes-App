@@ -12,7 +12,7 @@ function FolderItem({ folder, onNoteSelect , onFolderSelect, onFolderDelete }) {
         onFolderSelect && onFolderSelect(folder.id);
       }}>
         <img
-          src={isOpen ? "public/down_arrow.svg" : "public/right_arrow.svg"}
+          src={isOpen ? "down_arrow.svg" : "right_arrow.svg"}
           className="folder-icon"
           alt="toggle"
         />
