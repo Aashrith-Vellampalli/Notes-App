@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Personal and this will overflooooow noooowwwww",
+    "notes": [
+      { "id": "note-1", "title": "Grocery List" },
+      { "id": "note-2", "title": "Daily Journal" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Work",
+    "notes": [
+      { "id": "note-3", "title": "Meeting Notes" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Travel",
+    "notes": [
+      { "id": "note-4", "title": "Trip Itinerary" },
+      { "id": "note-5", "title": "Packing List" }
+    ]
+  }
+]

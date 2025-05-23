@@ -1,0 +1,27 @@
+[
+    {
+        "id": "note-1",
+        "title": "First Note",
+        "content": "This is the content of the first note."
+    },
+    {
+        "id": "note-2",
+        "title": "Second Note",
+        "content": "This is the content of the second note."
+    },
+    {
+        "id": "note-3",
+        "title": "Third Note",
+        "content": "This is the content of the third note."
+    },
+    {
+        "id": "note-4",
+        "title": "Fourth Note",
+        "content": "This is the content of the fourth note."
+    },
+    {
+        "id": "note-5",
+        "title": "Fifth Note",
+        "content": "This is the content of the fifth note."
+    }
+]
