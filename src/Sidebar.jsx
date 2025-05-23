@@ -17,20 +17,20 @@ function SidebarOpen({ folders,onNoteSelect, onCreateNote, onFolderSelect,onCrea
           </>
         )}
         <button className="sidebar_btn menu" onClick={toggleOpen}>
-          <img src={isOpen ? "public/close.svg" : "public/open.svg"} />
+          <img src={isOpen ? "close.svg" : "open.svg"} />
         </button>
       </div>
 
       {isOpen && (
         <>
           <ul className='sidebar_list'>
-            <li className='sidebar_item'><button className="sidebar_btn" onClick={onCreateFolder}><img src="public/create_new_folder.svg" /></button></li>
-            <li className='sidebar_item'><button className="sidebar_btn" onClick={onCreateNote}><img src="public/create_file.svg" /></button></li>
+            <li className='sidebar_item'><button className="sidebar_btn" onClick={onCreateFolder}><img src="create_new_folder.svg" /></button></li>
+            <li className='sidebar_item'><button className="sidebar_btn" onClick={onCreateNote}><img src="create_file.svg" /></button></li>
             {/* <li className='sidebar_item'><button className="sidebar_btn"><img src="public/edit_file.svg" /></button></li> */}
           </ul>
           <div className='search_space'>
             <div className="sidebar_1">
-              <button className="sidebar_btn"><img src="public/search.svg" alt="Search" /></button>
+              <button className="sidebar_btn"><img src="search.svg" alt="Search" /></button>
               <input type="text" placeholder="Search..." className="search"   value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} /> 
             </div>
             
